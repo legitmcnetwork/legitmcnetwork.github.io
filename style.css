@@ -1,0 +1,262 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #AE00FF; /* Dark blue background */
+  color: #f1c40f; /* Orange text */
+}
+
+header {
+  background: linear-gradient(to right, #e74c3c, #2ecc71); /* Red to green gradient */ 
+  color: white; /* White text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: inherit; /* Inherit header text color */
+}
+
+main {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Multicolored navigation links using a loop: */
+nav a:nth-child(1) {
+  color: #e74c3c; /* Red */
+}
+
+nav a:nth-child(2) {
+  color: #f1c40f; /* Orange */
+}
+
+nav a:nth-child(3) {
+  color: #2ecc71; /* Green */
+}
+
+nav a:nth-child(4) {
+  color: #9b59b6; /* Light purple */
+}
+
+nav a:nth-child(5) {
+  color: #3498db; /* Blue */
+}
+
+nav a:nth-child(6) {
+  color: #e67e22; /* Deep orange */
+}
+
+nav a:hover {
+  color: white; /* White on hover */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #20232a; /* Darker blue for sections */
+  color: inherit; /* Inherit main text color */
+}
+
+h2 {
+  color: #9b59b6; /* Light purple for headings */
+}
+
+/* Multicolored section borders using a loop: */
+section:nth-child(1) {
+  border: 2px solid #e74c3c; /* Red border */
+}
+
+section:nth-child(2) {
+  border: 2px solid #f1c40f; /* Orange border */
+}
+
+section:nth-child(3) {
+  border: 2px solid #2ecc71; /* Green border */
+}
+
+section:nth-child(4) {
+  border: 2px solid #9b59b6; /* Light purple border */
+}
+
+section:nth-child(5) {
+  border: 2px solid #3498db; /* Blue border */
+}
+
+section:nth-child(6) {
+  border: 2px solid #e67e22; /* Deep orange border */
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #293747; /* Dark blue background */
+  color: #f1c40f; /* Orange text (ensure good contrast) */
+}
+
+header {
+  background: linear-gradient(to right, #e74c3c, #2ecc71); /* Red to green gradient */ 
+  color: white; /* White text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: inherit; /* Inherit header text color */
+  text-shadow: 2px 2px 5px #e74c3c; /* Red text shadow */
+}
+
+main {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a:nth-child(1) {
+  color: #e74c3c; /* Red */
+}
+
+nav a:nth-child(2) {
+  color: #f1c40f; /* Orange */
+}
+
+/* ... (rest of navigation styles) */
+
+nav a:hover {
+  color: white; /* White on hover */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #20232a; /* Darker blue for sections */
+  color: inherit; /* Inherit main text color */
+}
+
+h2 {
+  color: #9b59b6; /* Light purple for headings */
+  text-shadow: 1px 1px 3px #2ecc71; /* Green text shadow */
+}
+
+section:nth-child(1) {
+  border: 2px solid #e74c3c; /* Red border */
+}
+
+section:nth-child(2) {
+  border: 2px solid #f1c40f; /* Orange border */
+}
+
+/* ... (rest of section styles) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #293747; /* Dark blue background */
+  color: #fff; /* White text (common choice for dark themes) */
+}
+
+header {
+  background: linear-gradient(to right, #e74c3c, #2ecc71); /* Red to green gradient */ 
+  color: white; /* White text for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: inherit; /* Inherit header text color */
+  text-shadow: 2px 2px 5px #e74c3c; /* Red text shadow */
+}
+
+main {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a:nth-child(1) {
+  color: #e74c3c; /* Red */
+}
+
+nav a:nth-child(2) {
+  color: #f1c40f; /* Orange */
+}
+
+/* ... (rest of navigation styles) */
+
+nav a:hover {
+  color: white; /* White on hover */
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px; /* Rounded corners */
+  background-color: #20232a; /* Darker blue for sections */
+  color: inherit; /* Inherit main text color */
+}
+
+h2 {
+  color: #a5d6a7; /* Light green for headings */
+  text-shadow: 1px 1px 3px #2ecc71; /* Green text shadow */
+}
+
+section:nth-child(1) {
+  border: 2px solid #e74c3c; /* Red border */
+}
+
+section:nth-child(2) {
+  border: 2px solid #f1c40f; /* Orange border */
+}
+
+/* ... (rest of section styles) */
